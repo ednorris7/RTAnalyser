@@ -7,12 +7,6 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Configuration;
 using System.Data.SqlClient;
-using System.Runtime.Remoting.Messaging;
-using System.Xml.Linq;
-using Microsoft.Ajax.Utilities;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace BigMovies
 {
