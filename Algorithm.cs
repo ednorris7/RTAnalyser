@@ -12,7 +12,7 @@ namespace BigMovies
         {
             if (value3 <= 5)
             {
-                return "Certified Banger";
+                return "Masterpiece";
             }
             else if (value3 <= 10)
             {
@@ -40,7 +40,7 @@ namespace BigMovies
             }
             else if (value3 <= 10)
             {
-                return "An unbelievably mid movie or cult classic";
+                return "An unbelievably average movie or cult classic";
             }
             else if (value3 <= 20)
             {
@@ -76,7 +76,7 @@ namespace BigMovies
             }
             else
             {
-                return "If you like fast and furious this shit gonna be fire";
+                return "If you like fast and furious this is the movie you're looking for";
             }
         }
 

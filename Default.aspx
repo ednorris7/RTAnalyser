@@ -5,7 +5,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <link rel="icon" href="https://www.freeiconspng.com/thumbs/letter-m-icon-png/letter-m-icon-png-16.png"/>
-    
     <style type="text/css">
         body {
             background-color: black;
@@ -49,7 +48,7 @@
             border-radius: 4px;
             margin-left: 0px;
         }
-        
+
         #GridView1 {
             border: none !important;
             color: white;
@@ -69,6 +68,7 @@
             margin-right: 200px;
         }
     </style>
+    
     <title>Should I Watch This Movie?</title>
 </head>
 <body>
@@ -77,7 +77,7 @@
     <h1>Should I Watch This Movie?</h1>
     <form id="form1" runat="server">
         <div>
-            <asp:TextBox ID="txtSearch" runat="server" AutoCompleteType="None" Width="393px"></asp:TextBox>
+            <asp:TextBox class="textbox" ID="txtSearch" runat="server" AutoCompleteType="None" Width="393px"></asp:TextBox>
             <asp:Button class="button" ID="btnSearch" runat="server" Text="Search" OnClick="btnSearch_Click"/>
         </div>
         <div>
